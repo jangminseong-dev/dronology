@@ -17,5 +17,5 @@ def index():
 
 # Add state and page to the app.
 app = api.App()
-app.add_page(index)
+app.add_page(index, title="Dronology")
 app.compile()
